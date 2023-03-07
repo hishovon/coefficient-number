@@ -1,0 +1,19 @@
+.bg-sqr{
+
+    background-image: url('https://cdn.wallpapersafari.com/33/79/BDMvLS.gif');
+
+    background-repeat: no-repeat;
+  background-size:cover;
+  height: 100vh;
+  
+}
+
+@media only screen and (max-width: 768px) {
+    .bg-sqr{
+      background-size: cover;
+    }
+  }
+
+
+
+  
