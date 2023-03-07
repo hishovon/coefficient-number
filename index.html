@@ -1,34 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="styles/background.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+     
+  <link rel="stylesheet" href="styles/bg-index.css">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.3/dist/full.css" rel="stylesheet" type="text/css" />
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+  
 
 
 </head>
-<body class="bg-image bg ">
+<body class="bg-index">
   
-    <section >
-        
-    <h1 class="lg:text-5xl  mt-4 text-white text-center lg:mt-56 lg:font-bold">Here is your coefficient <span class="text-green-500">solution</span> </h1>
 
-<div class="text-center mt-5 ">
- <input id="input" class="border-2 rounded border-cyan-400 p-2 " type="number" placeholder=" Enter a number" >
 
-<h2 id="result" class=" border-2 rounded justify-center text-center text-lg mx-auto text-emerald-500 border-cyan-400 w-80 h-8 mt-5 "placeholder="Answer"></h2>
 
- <button id="btn" class="mt-2 border rounded bg-amber-100 ml-2 w-16  h-10">Done</button>
- 
+
+  <section >
+    <h2 class="ml-2 mt-2 text-orange-200">Click Here</h2>
+    <div class="navbar">
+        <div class="navbar-start">
+          <div class="dropdown ">
+            <label tabindex="0" class="btn btn-ghost  text-white btn-circle">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+            </label>
+            <ul tabindex="0" class="menu text-white menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Homepage</a></li>
+              <li class="btn-coeff"><a href="coefficient.html">Coefficient</a></li>
+              <li><a>Factorial</a></li>
+              <li><a>Odd & Even</a></li>
+            </ul>
+          </div>
+        </div>
+       
+      </div>
+</section>
+
+
+<section>
+
+<h1 class="lg:text-6xl text-3xl text-center text-white lg:font-semibold  underline"> <span class="text-green-400">Welcome</span> To Your <span class="text-red-400">Math </span> Solving <span class="text-purple-400"> Page </span></h1>
+
+
+<div class="text-center mt-20 font-semibold text-base lg:text-xl">
+  <p class="text-white">There are <span class="text-yellow-300">three</span> types of math problems <span class="text-lime-400">solution</span>. You can access and solve & select your problems from the <span class="text-rose-500 underline">Navbar.</span></p>
 </div>
 
 
+<div class="text-center text-lg mt-4">
+  <p> <span class="text-white">Here it is :-</span> <span class="text-emerald-300">coefficient , Factorial , odd & even number</span> </p>
+
+
+
+</div>
 
 
 </section>
-    <script src="js/math.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+document.getElementById("btn-coeff").addEventListener("click",function(){
+
+
+  window.location.href = "blog.html";
+}) -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/tailwind.config.js"></script>
+
 </body>
 </html>

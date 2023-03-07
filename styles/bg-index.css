@@ -1,0 +1,16 @@
+
+.bg-index{
+
+background-image: url('https://getwallpapers.com/wallpaper/full/0/7/9/94301.jpg');
+    
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .bg-index{
+      background-size: cover;
+    }
+  }

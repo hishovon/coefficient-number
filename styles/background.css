@@ -3,7 +3,9 @@
     background-image: url('https://png.pngtree.com/background/20210706/original/pngtree-creative-blackboard-mathematical-background-picture-image_102289.jpg');
 
     background-repeat: no-repeat;
-  background-size:cover
+  background-size:cover;
+  height: 100vh;
+  
 }
 
 @media only screen and (max-width: 768px) {

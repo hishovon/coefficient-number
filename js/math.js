@@ -1,7 +1,7 @@
 function start(number)
 
 { let array = [];
-    for (let i = 1; i <= 100; i++) {
+    for (let i = 1; i <=number; i++) {
 
         if (number % i == 0 ) {
 
@@ -53,3 +53,7 @@ document.getElementById("input").addEventListener("keypress", function(event){
     }
 })
 
+
+
+
+  
